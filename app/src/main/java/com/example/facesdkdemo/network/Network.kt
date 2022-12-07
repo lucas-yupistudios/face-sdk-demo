@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class Network {
     companion object {
 
-        /** Retorna uma Instância do Client Retrofit para Requisições
+        /** Returns a Client Retrofit Instance for Requests
          */
         fun getRetrofitInstance() : BioPassIDApi {
             return Retrofit.Builder()
